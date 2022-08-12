@@ -27,8 +27,8 @@ namespace performancemessagereceiver
 
             //var processorOptions = new ServiceBusProcessorOptions
             //{
-            //    MaxConcurrentCalls = 1,
-            //    AutoCompleteMessages = false
+            //    MaxConcurrentCalls = 1,       // default is 1
+            //    AutoCompleteMessages = false  // default is true
             //};
 
             //ServiceBusProcessor processor = client.CreateProcessor(TopicName, SubscriptionName, processorOptions);

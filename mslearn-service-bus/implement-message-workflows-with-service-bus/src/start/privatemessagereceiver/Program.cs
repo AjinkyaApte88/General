@@ -30,8 +30,8 @@ namespace privatemessagereceiver
 
             //var processorOptions = new ServiceBusProcessorOptions
             //{
-            //    MaxConcurrentCalls = 1,
-            //    AutoCompleteMessages = true
+            //    MaxConcurrentCalls = 1,       // default is 1
+            //    AutoCompleteMessages = false   // default is true
             //};
 
             //processor = client.CreateProcessor(QueueName, processorOptions);
