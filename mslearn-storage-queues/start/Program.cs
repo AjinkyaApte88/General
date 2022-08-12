@@ -24,19 +24,19 @@ namespace StorageQueueApp
                 Console.WriteLine("  1 - Send message");
                 Console.WriteLine("  2 - Peek at the next message");
                 Console.WriteLine("  3 - Receive message");
-                Console.WriteLine("  X - Exit program");
+                Console.WriteLine("  0 - Exit program");
 
                 ConsoleKeyInfo option = Console.ReadKey();
                 Console.WriteLine();  // ReadKey does not got the the next line, so this does
                 Console.WriteLine();  // Provide some whitespace between the menu and the action
 
-                if (option.KeyChar == '1')
+                if (option.KeyChar.ToString() == ((int)QueueOperation.SendMessage).ToString())
                     await SendMessageAsync(queueClient);
-                else if (option.KeyChar == '2')
+                else if (option.KeyChar.ToString() == ((int)QueueOperation.PeekMessage).ToString())
                     await PeekMessageAsync(queueClient);
-                else if (option.KeyChar == '3')
+                else if (option.KeyChar.ToString() == ((int)QueueOperation.ReceiveMessage).ToString())
                     await ReceiveMessageAsync(queueClient);
-                else if (option.Key == ConsoleKey.X)
+                else if (option.KeyChar.ToString() == ((int)QueueOperation.Exit).ToString())
                     exitProgram = true;
                 else
                     Console.WriteLine("invalid choice");
@@ -103,9 +103,10 @@ namespace StorageQueueApp
 
     enum QueueOperation
     {
-        SendMessage,
-        PeekMessage,
-        ReceiveMessage
+        Exit = 0,
+        SendMessage = 1,
+        PeekMessage = 2,
+        ReceiveMessage = 3
     }
 
 }
