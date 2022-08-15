@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=ajinkyalearnresourc84ce;AccountKey=3HH6DuFq8PYURrVkSjfsOSBCcKoZ0OpackUO5mzeinqlWUs0e6CngZoKspfqVOpA0spY8njzHQG/+AStT5gvIw==;EndpointSuffix=core.windows.net",
+    "AzureCosmosDBConnectionString": "AccountEndpoint=https://learn-cosmos-db.documents.azure.com:443/;AccountKey=OLyQe4nQriF3GBvmfByqVQvEoBkOtxinXcXdpbJemcsQjc9yK4knUkdIeSfFm4ojiRVZrju72eK8dHhZGyFf2g==;",
+    "AzureCosmosDBMasterKey": "OLyQe4nQriF3GBvmfByqVQvEoBkOtxinXcXdpbJemcsQjc9yK4knUkdIeSfFm4ojiRVZrju72eK8dHhZGyFf2g==",
+    "AzureSignalRConnectionString": "Endpoint=https://learn-signalr-azure-service.service.signalr.net;AccessKey=6rHlqoaYPEb9BNe4YXj/B8s9c5rijhoojIj77nYuS/g=;Version=1.0;",
+    "FUNCTIONS_WORKER_RUNTIME": "node"
+  },
+  "Host" : {
+    "LocalHttpPort": 7071,
+    "CORS": "http://localhost:8080",
+    "CORSCredentials": true
+  }
+}
