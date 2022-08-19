@@ -1,0 +1,11 @@
+Following Operations are done in this application:
+
+1. Create Storage Blob Container
+
+2. Create a local file & upload it to the blob container
+
+3. Download the list of blobs in the container & display it 
+
+4. Download the file
+
+5. Delete the blob container (and files inside with it) and local file.
