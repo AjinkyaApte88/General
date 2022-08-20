@@ -6147,11 +6147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AA\\Mock Projects\\GithubGeneralRepository\\mslearn-cosmos-db\\LearnCosmosDb\\LearnCosmosDb\\LearnCosmosDb.csproj",
+      "projectUniqueName": "C:\\AA\\Mock Projects\\GithubGeneralRepository\\mslearn-cosmos-db\\LearnCosmosDb\\LearnCosmosDb.csproj",
       "projectName": "LearnCosmosDb",
-      "projectPath": "C:\\AA\\Mock Projects\\GithubGeneralRepository\\mslearn-cosmos-db\\LearnCosmosDb\\LearnCosmosDb\\LearnCosmosDb.csproj",
+      "projectPath": "C:\\AA\\Mock Projects\\GithubGeneralRepository\\mslearn-cosmos-db\\LearnCosmosDb\\LearnCosmosDb.csproj",
       "packagesPath": "C:\\Users\\Ajinkya_Apte\\.nuget\\packages\\",
-      "outputPath": "C:\\AA\\Mock Projects\\GithubGeneralRepository\\mslearn-cosmos-db\\LearnCosmosDb\\LearnCosmosDb\\obj\\",
+      "outputPath": "C:\\AA\\Mock Projects\\GithubGeneralRepository\\mslearn-cosmos-db\\LearnCosmosDb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ajinkya_Apte\\AppData\\Roaming\\NuGet\\NuGet.Config",
