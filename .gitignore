@@ -2,4 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/.vs
 /mslearn-function-app/WatchPortalFunction/.vs
+/mslearn-storage-blob/learn-blob/obj/Release/net5.0
+/mslearn-storage-blob/learn-blob/obj/Debug/net5.0/
