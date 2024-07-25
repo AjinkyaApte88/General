@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "learn-az-auth", "learn-az-auth.csproj", "{686B2C6E-C9DA-4995-83E5-F6D80C1A60F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{686B2C6E-C9DA-4995-83E5-F6D80C1A60F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686B2C6E-C9DA-4995-83E5-F6D80C1A60F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686B2C6E-C9DA-4995-83E5-F6D80C1A60F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686B2C6E-C9DA-4995-83E5-F6D80C1A60F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C56EAFDD-CD8E-4992-8A49-82EAC5812E52}
+	EndGlobalSection
+EndGlobal
