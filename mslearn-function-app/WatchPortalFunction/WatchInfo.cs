@@ -6,13 +6,18 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Microsoft.Azure.WebJobs.Extensions.CosmosDB;
 using Newtonsoft.Json;
 
 namespace WatchPortalFunction
 {
     public static class WatchInfo
     {
+        const string tblName = "newTable";
+        const string connStr = "newCosmosConnStr";
+        
         [FunctionName("WatchInfo")]
+        [return: CosmosDB(tblName, connStr)]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
