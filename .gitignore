@@ -3,6 +3,21 @@
 ################################################################################
 
 /.vs
-/mslearn-function-app/WatchPortalFunction/.vs
-/mslearn-storage-blob/learn-blob/obj/Release/net5.0
-/mslearn-storage-blob/learn-blob/obj/Debug/net5.0/
+/learn-event-grid-function-app/LearnEventGridFunctionApp/LearnEventGridFunctionApp
+/mslearn-azure-functions-and-signalr/start/node_modules
+/mslearn-cosmos-db/LearnCosmosDb/obj
+/mslearn-function-app/WatchPortalFunction
+/mslearn-service-bus/implement-message-workflows-with-service-bus/src
+/mslearn-storage-blob/learn-blob/obj
+/mslearn-storage-queues
+/learn-az-auth/.vs
+/learn-az-auth/bin/Debug/net7.0
+/learn-az-auth/obj
+/mslearn-cosmos-db/.vs/LearnCosmosDb/v16/.suo
+/mslearn-cosmos-db/LearnCosmosDb/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+/mslearn-cosmos-db/LearnCosmosDb/obj/Debug/netcoreapp3.1/apphost.exe
+/mslearn-cosmos-db/LearnCosmosDb/obj/Release/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+/mslearn-function-app/.vs/WatchPortalFunction/v16/.suo
+/mslearn-function-app/.vs/WatchPortalFunction/v17/.suo
+/mslearn-function-app/.vs
+/mslearn-storage-blob/learn-blob/obj/Debug/net5.0/apphost.exe
